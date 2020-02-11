@@ -1,6 +1,6 @@
 ---
 - name: add vlans
-  hosts: routers
+  hosts: arista
   gather_facts: false
   tasks:
     - name: add VLAN configuration
