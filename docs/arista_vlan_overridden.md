@@ -9,3 +9,7 @@ Use the `ansible-playbook` command to execute the playbook:
 ```
 ansible-playbook arista_vlan_overridden.yml
 ```
+
+## Overridden versus merge and replaced
+
+The overridden parameter will conform all vlans resources to the data model.  This means it will remove VLANs that are not defined in the data model being sent.
